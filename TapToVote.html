@@ -1,0 +1,96 @@
+{
+  "id": "96e31257-3be3-47ff-af60-1ff1d68ba913",
+  "version": "2.0",
+  "name": "TapToVote",
+  "url": "https://mycutebaby.in",
+  "tests": [{
+    "id": "0af911f4-84a1-44ee-a70f-e68c3f530ec8",
+    "name": "TapToVtoe",
+    "commands": [{
+      "id": "47de988d-f834-4748-a629-002a7956a271",
+      "comment": "",
+      "command": "open",
+      "target": "/contest/participant/?n=61c48a8d241cd&utm_source=wsapp_share&utm_campaign=December_2021&utm_medium=shared&utm_term=wsapp_shared_61c48a8d241cd&utm_content=participant",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d423b31-75cc-40ec-87d5-d711e7cefa93",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "998x674",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6950ab16-aff9-4c44-9d9b-57c92bbe114a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1550)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df53035b-9546-4a76-a648-09dcc0b1e3aa",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2050)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "adf700d9-91a1-4bf4-8748-628a892e67f1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2650)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dbc91e8a-24d6-46df-bc39-0e9cb1ec2357",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.icon",
+      "targets": [
+        ["css=.icon", "css:finder"],
+        ["xpath=//a[@id='vote_btn']/span", "xpath:idRelative"],
+        ["xpath=//form/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a24fcf4f-59f4-44e4-b55c-9c3638c59b7b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text",
+      "targets": [
+        ["css=.text", "css:finder"],
+        ["xpath=//a[@id='vote_btn']/span[2]", "xpath:idRelative"],
+        ["xpath=//a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c10bf71e-de6f-491a-8edc-57598b85f641",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2550)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b9804ac1-6299-42cb-a4a8-1170155ccff0",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "9099288f-083b-4617-9eb7-d22a7329bdf4",
+    "name": "TapToVote",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "54efc740-e6d4-40be-b7cf-9af6196f9048",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0af911f4-84a1-44ee-a70f-e68c3f530ec8"]
+  }],
+  "urls": ["https://mycutebaby.in/"],
+  "plugins": []
+}
